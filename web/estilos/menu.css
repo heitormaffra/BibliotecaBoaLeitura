@@ -1,0 +1,48 @@
+.menu-livraria ul {
+    list-style: none;
+
+}
+
+.menu-livraria li {
+    background: linear-gradient(#fafafa, #f1f1f1);
+    border: 1px solid #eee;
+    border-bottom-color: #ebebeb;
+    margin: 5px 1050px 30px 0;
+    border-radius: 10px 0 10px 0;
+  box-shadow: inset 0 1px 0 #fff, 0 0px 0 1px #fff;
+}
+
+.menu-livraria a {
+    border-left: 1px solid #fff;
+	border-right: 1px solid #eee;
+	color: #888;
+	display: block;
+	font-size: 14px;
+	height: 50px;
+	line-height: 50px;
+	padding: 0 35px;
+	position: relative;
+	text-decoration: none;
+	text-shadow: 0 1px 0 #fff;
+	transition: all 150ms linear;
+	z-index: 2;		
+}
+
+.menu-livraria a:focus {
+	outline: 0;
+}
+
+.menu-livraria ul:hover a:active {
+	border-left-color: #f0f0f0;	
+	box-shadow: inset 0 0 22px #e9e9e9;
+	color: #999;
+	line-height: 47px;
+	transition: none;
+}
+
+.menu-livraria ul:hover a:hover {
+	background: #fafafa;
+	color: #444;
+	line-height: 43px;
+	text-shadow: 0 1px 0 #fff;	
+}
