@@ -29,7 +29,7 @@ public class ClienteDAO {
     try {
       conn = DataBaseLocator.getInstance().getConnection();
       st = conn.createStatement();
-      st.execute("insert into livro (codigo, nm_cliente, end_cliente, tel_cliente, email_cliente)" +
+      st.execute("insert into cliente (codigo, nm_cliente, end_cliente, tel_cliente, email_cliente)" +
         " values ('" + cliente.getCodigo() + "', '" + cliente.getNm_cliente() + "', '" + cliente.getEnd_cliente() 
         + "', '" + cliente.getTel_cliente() + "', '" + cliente.getEmail_cliente() + "')");
       
